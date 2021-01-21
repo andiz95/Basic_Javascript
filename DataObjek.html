@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Belajar Data Objek</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+ 
+  <style>
+ 
+  </style>
+  
+</head>
+<body>
+    <h1>Objek</h1>
+    <script src="main.js"></script>
+    <div id="hasil"></div>
+    <script>
+		// tipe data object		
+		let  manusia = {
+		    nama       : "Andi Darmawan",
+		    alamat     : "Yogyakarta",
+		    umur       : 25,
+            hobby      : "Ngegame",
+            makanan    : "Ayam Geprek"
+		};
+ 
+		// menampilkan tipe data object pada element id hasil
+        document.getElementById("hasil").innerHTML ="Halo, Saya " + manusia.nama + " tinggal di " + manusia.alamat 
+        + " sekarang berumur "+ manusia.umur +" hobby  " + manusia.hobby + " makanan favorit " + manusia.makanan;
+	
+    </script>
+   
+  <!-- <div id="output"></div> -->
+    <!-- <script language="JavaScript">
+    let jari2,luas,satuan;
+    satuan = window.prompt('Masukkan satuan (m,cm) :');
+    jari2 = window.prompt('Masukkan jari-jari :', + '0');
+    luas=3.14*jari2*jari2;
+    document.write('Jari-jari = ' + jari2 +' ' + satuan + "<br>");
+    document.write('Luas = ' + luas + ' '+ satuan + "<br>");
+    </script> -->
+    
+
+</body>
+</html>

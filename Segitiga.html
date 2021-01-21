@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hitung Luas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+ 
+  <style>
+ 
+  </style>
+  
+</head>
+<body>
+    <h1>Hitung Luas Segitiga</h1>
+    <script src="main.js"></script>
+    <script language="JavaScript">
+    let alas,tinggi,luas,satuan;
+    satuan = window.prompt('Masukkan satuan (m,cm) :');
+    alas = window.prompt('Masukkan alas segitiga :', + '0');
+    tinggi = window.prompt('Masukkan tinggi segitiga :', + '0');
+    luas=0.5*alas*tinggi;
+    document.write('Alas = ' + alas +' ' + satuan + "<br>");
+    document.write('Tinggi = ' + tinggi +' ' + satuan + "<br>");
+    document.write('Luas = ' + luas + ' '+ satuan + "<br>");
+    </script>
+    
+    <!-- </p>
+    <form name='hitungls3' method='post'>
+    <table>
+    <tr>
+    <td>Alas</td>
+    <td>:</td>
+    <td><input type='number' name='alass3' value='0' onchange='hitungluas();'></td>
+    </tr>
+    <tr>
+    <td>Tinggi</td>
+    <td>:</td>
+    <td><input type='number' name='tinggis3' value='0' onchange='hitungluas();'></td>
+    </tr>
+    <tr>
+    <td>Luas</td>
+    <td>:</td>
+    <td> <input type='text' name='luass3' onchange='hitungluas();'></td>
+    </tr>
+    </table>
+    </form>
+    </br> -->
+  
+</body>
+</html>
